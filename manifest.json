@@ -1,0 +1,12 @@
+{
+  "name": "transl8.ai",
+  "id": "transl8-ai-figma-plugin",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "Calls the transl8.ai API base URL configured by the designer (staging or self-hosted)."
+  }
+}
